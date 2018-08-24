@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DEMOSTACKLAYOUT"
+             x:Class="DEMOSTACKLAYOUT.MainPage">
+
+    <StackLayout Orientation="Horizontal" >
+        <Button BackgroundColor="Black" 
+                Text="Fill"
+                TextColor="Red"
+                VerticalOptions="Fill">            
+        </Button>
+        <Button BackgroundColor="Blue" 
+                Text="Start"
+                TextColor="Red"
+                VerticalOptions="Start">
+        </Button>
+        <Button BackgroundColor="Green" 
+                Text="Center"
+                TextColor="Red"
+                VerticalOptions="Center">
+        </Button>
+        <Button BackgroundColor="Gray" 
+                Text="End"
+                TextColor="Red"
+                VerticalOptions="End">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
